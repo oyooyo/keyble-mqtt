@@ -1,6 +1,6 @@
 {
 	"name": "keyble-mqtt",
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"description": "MQTT client for controlling eQ-3 eqiva bluetooth smart locks",
 	"bin": {
 		"keyble-mqtt": "./keyble-mqtt.js"
