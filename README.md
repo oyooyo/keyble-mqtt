@@ -85,8 +85,6 @@ optional arguments:
 
 ### Usage examples
 
-#### Minimum
-
 At the very least, you need to specify the three required, positional arguments:
 
 - the smart lock's MAC address
@@ -96,9 +94,8 @@ At the very least, you need to specify the three required, positional arguments:
 $ keyble-mqtt 01:23:45:67:89:ab 1 ca78ad9b96131414359e5e7cecfd7f9e
 ```
 
-#### Minimum
+Unless keyble is running on the same system as your MQTT broker, you will also need to at least specify the IP address of your MQTT broker:
 
-At the very least, you need to specify the smart lock's MAC address, the user ID and the user key:
 ```
 $ keyble-mqtt 01:23:45:67:89:ab 1 ca78ad9b96131414359e5e7cecfd7f9e --host 192.168.0.3 
 ```
